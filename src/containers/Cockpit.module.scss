@@ -1,32 +1,54 @@
 .Cockpit {
-    text-align: left;
-    height: 100%;
-    width: 100%;
+	text-align: left;
+	height: 100%;
+	width: 100%;
 }
 
 .title {
-    color: blue;
+	color: blue;
 }
 
 .btn1 {
-    background-color: blue;
-    color: white;
-    height: 3em;
-    width: 5em;
+	background-color: blue;
+	color: white;
+	height: 3em;
+	width: 5em;
 
-    &:hover{
-        cursor: pointer;
-        background-color: lightseagreen;
-        color: black;
-        animation: pulse 3s infinite;
-    }
+	&:hover {
+		cursor: pointer;
+		background-color: lightseagreen;
+		color: black;
+		animation: pulse 3s infinite;
+	}
 }
 
 @keyframes pulse {
+	50% {
+		background-color: rgba(32, 178, 171, 0.241);
+	}
+	100% {
+		background-color: lightseagreen;
+	}
+}
+
+.breath {
+    background-color: green;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxBreath {
+    width: 20em;
+    height: 10em;
+    background-color: orange;
+    // animation: boxBreath 8s infinite;
+}
+
+@keyframes boxBreath {
     50% {
-        background-color: rgba(32, 178, 171, 0.241);
-    }
-    100% {
-        background-color: lightseagreen;
+        background-color: black;
     }
 }

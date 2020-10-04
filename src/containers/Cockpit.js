@@ -8,7 +8,12 @@ const cockpit = () => {
 	return (
 		<div className={classes.cockpit}>
 			<h3 className={classes.title}>Cockpit component</h3>
-			<button className={classes.btn1} onClick={clicked}>I'm a button</button>
+			<button className={classes.btn1} onClick={clicked}>
+				I'm a button
+			</button>
+			<div className={classes.breath}>
+				<div className={classes.boxBreath}></div>
+			</div>
 		</div>
 	);
 };
