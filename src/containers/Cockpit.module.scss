@@ -1,0 +1,32 @@
+.Cockpit {
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: blue;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    height: 3em;
+    width: 5em;
+
+    &:hover{
+        cursor: pointer;
+        background-color: lightseagreen;
+        color: black;
+        animation: pulse 3s infinite;
+    }
+}
+
+@keyframes pulse {
+    50% {
+        background-color: rgba(32, 178, 171, 0.241);
+    }
+    100% {
+        background-color: lightseagreen;
+    }
+}
