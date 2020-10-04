@@ -1,3 +1,11 @@
 .Cockpit {
-    text-align: center;
+    text-align: left;
+}
+
+.title {
+    color: blue;
+}
+
+@keyframes moveText {
+    
 }
