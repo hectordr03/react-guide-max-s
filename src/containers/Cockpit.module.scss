@@ -45,10 +45,20 @@
     height: 10em;
     background-color: orange;
     // animation: boxBreath 8s infinite;
+    // animation: spin 4s infinite;
 }
 
 @keyframes boxBreath {
     50% {
         background-color: black;
+    }
+}
+
+@keyframes spin {
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(-180deg);
     }
 }
